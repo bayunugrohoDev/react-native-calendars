@@ -249,7 +249,8 @@ const CalendarList = (props: CalendarListProps & ContextProp, ref: any) => {
         calendarWidth={calendarWidth}
         calendarHeight={calendarHeight}
         scrollToMonth={scrollToMonth}
-        visible={isDateInRange(item)}
+        // visible={isDateInRange(item)}
+        visible={true}
       />
     );
   }, [horizontal, calendarStyle, calendarWidth, testID, getMarkedDatesForItem, isDateInRange, calendarProps]);
